@@ -1,29 +1,27 @@
-.item{
-  font-size: 2rem;
-  width: 4rem
-  ;
-  height: 4rem
-  ;
-  color: #D0F2FF;
-  display: inline-flex;
-  justify-content: center;
+.Glasses {
+  background-image: url(./BaiTapMatKinh/glassesImage/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_1,
+.title_2 {
+  width: 45%;
+  display: flex;
   align-items: center;
-}
-.item i{
-  padding: 1rem;
+  justify-content: center;
 }
 
-.content{
-  padding: 0 2rem 2rem;
+.title_1 img,
+.title_2 img {
+  max-width: 100%;
+  max-height: 100%;
 }
-
-.mt-n4{
-  margin-top: -1.5rem !important;
-}
-.bg-primary{
-  border-radius: 1rem;
-}
-.content_footer h1{
-  font-size: 2rem;
-  
+.row{
+  padding: 220px 20px;
 }
